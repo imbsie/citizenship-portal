@@ -1,0 +1,43 @@
+{
+  "name": "citizenship-portal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "^0.263.1"
+  }
+}
+```
+
+4. Click **"Commit changes"** → **"Commit directly to main"**
+
+---
+
+## **File 2: Create folder structure and `pages/index.js`**
+
+1. Click **"Add file"** → **"Create new file"**
+2. Name it: `pages/index.js`
+3. Paste the code from the Next.js artifact above (the long React code)
+4. Click **"Commit changes"**
+
+---
+
+## **File 3: Create `.gitignore`**
+
+1. Click **"Add file"** → **"Create new file"**
+2. Name it: `.gitignore`
+3. Paste:
+```
+node_modules/
+.next/
+.vercel/
+*.log
+.env.local
+.env.*.local
